@@ -1,0 +1,56 @@
+body{
+  background-color: #cdcdcd;
+}
+.container{
+    /* background-color: #344059; */
+}
+.jumbotron{
+  background-color:rgb(51, 63, 89);
+  width: 100%;
+  margin: 0px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+#name{
+  text-align: center;
+}
+#first{
+  font-size: 100px;
+  font-family: "Advent Pro", sans-serif;
+  color: seashell;
+  font-weight: 200;
+  display: inline;
+}
+#last{
+  font-family: "Advent Pro", sans-serif;
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: 100px;
+  margin-left: 30px;
+  color: seashell;
+  display: inline;
+}
+#location {
+  font-family: "Advent Pro", sans-serif;
+  color: seashell;
+  margin-top: 16px;
+}
+#nav{
+  background-color: #3a5934;
+
+}
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .container{
+            padding: 0px;
+        }
+        #first{
+            font-size: 2.5rem;
+        }
+        #last{
+            font-size: 2.5rem;
+            margin-left: 10px;
+        }
+    }
