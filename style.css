@@ -1,8 +1,11 @@
 body{
   background-color: #cdcdcd;
 }
-.container{
-    /* background-color: #344059; */
+header{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .jumbotron{
   background-color:rgb(51, 63, 89);
@@ -39,6 +42,24 @@ body{
   background-color: #3a5934;
 
 }
+#body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#projects {
+  height: 1000px;
+}
+#resume {
+  height: 1000px;
+  background-color: sienna;
+}
+
+#contact {
+  height: 1000px;
+  background-color:rgb(51, 63, 89);
+}
+
 @media only screen
     and (min-device-width: 375px)
     and (max-device-width: 667px)
