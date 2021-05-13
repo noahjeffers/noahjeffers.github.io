@@ -52,12 +52,12 @@ header{
 }
 #resume {
   height: 1000px;
-  background-color: sienna;
+  background-color: #8b0000;
 }
 
 #contact {
   height: 1000px;
-  background-color:rgb(51, 63, 89);
+  background-color:#c8df00;
 }
 
 @media only screen
